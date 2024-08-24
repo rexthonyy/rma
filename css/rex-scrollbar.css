@@ -1,0 +1,19 @@
+.myScroll::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+.myScroll::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+/* Handle */
+.myScroll::-webkit-scrollbar-thumb {
+	background-color: rgba(131, 131, 131, 0.521);
+	border-radius: 2px;
+}
+
+/* Handle on hover */
+.myScroll::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(210, 210, 210); 
+}
